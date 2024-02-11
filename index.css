@@ -1,0 +1,65 @@
+body{
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  font-size:large;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+h1{
+
+  color: brown;
+  text-align: center;
+  font-size: 5rem;
+
+}
+.list-of-tasks-todo{
+  padding-top:10px;
+  width: 400px;
+  margin: 40px;
+}
+.task-name{
+  cursor: pointer; 
+  display:list-item;
+  
+  
+} 
+.completed-task{
+  text-decoration: line-through;
+  
+}
+button{
+  background-color: red;
+  color: aliceblue;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+}
+
+button:hover{
+  height: 40px;
+  width: 100px;
+  color: burlywood;
+  background-color: dimgrey;
+}
+input{
+  height: 30px;
+  width: 150px;
+  border-radius: 40px;
+  background-color:slateblue;
+}
+::placeholder
+{
+  color:black;
+  font-size:medium;
+  font-style: italic;
+  
+}
+div{
+  color: black;
+
+  padding: 10px;
+}
